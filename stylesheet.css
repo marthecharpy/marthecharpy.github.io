@@ -8,25 +8,31 @@
          url('1942-webfont.svg#1942_report1942_report') format('svg');
     font-weight: normal;
     font-style: normal;
+}
 
+.container{
+    height:100%;
+}
+.presentation{
+    background-color: black;
+    margin-top: 1%;
+    border-radius: 10px;
 }
 
 .name{
 	font-family: '1942_report', Arial, sans-serif;
-    background-color: black;
     color: white;
-    padding-top: 20px;
-    margin-top:20px;
-    border-radius: 10px 10px 0px 0px;
+    margin-left: 1%;
 }
 
-.presentation{
+.dev{
     font-family: '1942_report', Arial, sans-serif;
-    background-color: black;
     color: white;
-    justify-content: center;
-    padding-bottom: 20px;
-    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+
+.marthe{
+    margin: -7%;
 }
 
 .contact{
