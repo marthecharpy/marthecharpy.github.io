@@ -10,13 +10,65 @@
     font-style: normal;
 }
 
+.cover{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.collection{
+    margin-top: 5%;
+}
+
 .container-fluid{
     height:100%;
     font-family:  '1942_report1942_report', Arial, sans-serif;
     display:flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    position: relative;
 }
+
+nav{
+    width:100%;
+      
+}
+.breadcrumb{
+     background-color: #00CC66; 
+}
+a{
+    
+    color: white;
+}
+
+@media screen and (max-width:750px){
+    .name{
+        text-align: center;
+    }
+    .marthe{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .container-fluid{
+    height:100%;
+    font-family:  '1942_report1942_report', Arial, sans-serif;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    .lien{
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    background-color: black;
+    width: 100%;
+    }
+
+}
+
 .presentation{
     background-color: black;
     margin-top: 1%;
@@ -39,34 +91,56 @@
     height: 150px;
 }
 
-
 .texte{
     text-align: center;
     font-size: 1em;
     margin-top: 2%;
 }
-
-.cover{
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+.contact{
+    justify-content: center;
+    margin-top: -12%;
+    margin-bottom: 30%;
 }
 
-.collection{
-    margin-top: 5%;
+.contactBtn{
+    margin-top: 18%;
+    font-size:1.5em;
 }
-footer{
+.btn{
     background-color: black;
+}
+
+.send{
+    background-color: #00CC66;
+}
+
+.modal-header{
+    background-color: #00CC66;
+    color: white;
+    text-align: center;
+}
+
+.form-group {
+  display: block;
+  width: 90px;
+  margin-left: -100px;
+}
+
+.modal-body{
+    align-self: center;
+}
+
+.close{
+    color:white;
+}
+
+footer{   
     color: white;
     text-align: center;
     position: fixed;
     bottom:0;
     border-radius: 4px;
-    width: 100%;
-}
+    width: 80%;
+    background-color: black;
+ }
 
-a{
-    color:white;
-}
