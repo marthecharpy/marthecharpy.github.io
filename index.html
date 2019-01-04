@@ -11,22 +11,23 @@
 
     <title>portfolio</title>
   </head>
-  <body class="container">
+  <body class="container-fluid">
 
     <div class="row presentation">
-      <div class="col-md-10 col-12">
+      <div class="col-lg-9 col-md-9 col-12">
           <h1 class="name"> Marthe CHARPY</h1>
       </div>
-      <div class="col-md-2 col-12">
-        <img src="http://image.noelshack.com/fichiers/2019/01/4/1546527924-imageedit-2-5129086289.jpg" class="marthe rounded-circle" alt="Marthe Charpy" width="90%">
+      <div class="col-lg-3 col-md-3 col-12">
+        <img src="http://image.noelshack.com/fichiers/2019/01/4/1546527924-imageedit-2-5129086289.jpg" class="marthe rounded-circle" alt="Marthe Charpy">
       </div>
-      <div class="col-lg-12 col-12">
-        <p class="dev">Developpeuse web</p>
+      <div class="col-lg-12 col-md-12 col-12">
+        <p class="dev">Développeuse web</p>
       </div>
     </div>
 
-    <div class="row">
-      <p>Cette page a pour objectif de vous presenter les différents projets auxquels j'ai collabore.</p>
+    <div class="row texte">
+      <p class="col-lg-12 col-md-12 col-12">Cette page, en cours d'élaboration, a pour objectif de vous présenter les différents projets auxquels j'ai collaboré.</p>
+      <p class="col-lg-12 col-md-12 col-12">Si vous souhaitez obtenir plus de détails, vous pouvez prendre dès maintenant contact avec moi.</p>
     </div>
     <div class="row contact">
       <button type="button" class="contactBtn btn btn-lg btn-secondary" data-toggle="modal" data-target="#exampleModalCenter">
@@ -56,7 +57,7 @@
                   <label for="messageInput">Message</label>
                   <textarea name="message" id="messageInput"></textarea>
                 </div>
-                <input type="submit" class="btn btn-secondary" value="Send">
+                <input type="submit" class="btn send btn-secondary" value="Send">
               </form> 
             </div>
           </div>
@@ -64,13 +65,14 @@
       </div>
     </div>
 
-    <footer>
-      <div>
-        <a href="https://www.linkedin.com/in/marthe-charpy-38ab99172/">LinkedIn</a>
-        <a href="https://github.com/marthecharpy">GitHub</a>
-        <a href="https://wildcodeschool.fr/">Wild Code School</a>
-      </div>
-    </footer>
+    <div class="row lien">
+      <footer>
+        <a class="col-lg-3 col-md-3 col-3" href="home.html">Accueil</a>
+        <a class="col-lg-3 col-md-3 col-3" href="https://www.linkedin.com/in/marthe-charpy-38ab99172/">LinkedIn</a>
+        <a class="col-lg-3 col-md-3 col-3" href="https://github.com/marthecharpy">GitHub</a>
+        <a class="col-lg-3 col-md-3 col-3" href="https://wildcodeschool.fr/">Wild Code School</a>
+      </footer>
+    </div>
   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

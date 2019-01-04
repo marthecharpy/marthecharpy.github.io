@@ -17,19 +17,6 @@
     flex-direction: column;
     width: 100%;
 }
-
-@media screen and (max-width:750px){
-    .name{
-        text-align: center;
-    }
-    .marthe{
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-}
-
 .presentation{
     background-color: black;
     margin-top: 1%;
@@ -52,57 +39,32 @@
     height: 150px;
 }
 
+
 .texte{
     text-align: center;
     font-size: 1em;
     margin-top: 2%;
 }
-.contact{
-    justify-content: center;
-    margin-top: -12%;
+
+.cover{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
-.contactBtn{
-    margin-top: 18%;
-    font-size:1.5em;
+.collection{
+    margin-top: 5%;
 }
-.btn{
-    background-color: black;
-}
-
-.send{
-    background-color: #00CC66;
-}
-
-.modal-header{
-    background-color: #00CC66;
-    color: white;
-    text-align: center;
-}
-
-.form-group {
-  display: block;
-  width: 90px;
-  margin-left: -100px;
-}
-
-.modal-body{
-    align-self: center;
-}
-
-.close{
-    color:white;
-}
-
 footer{
-    
+    background-color: black;
     color: white;
     text-align: center;
     position: fixed;
     bottom:0;
     border-radius: 4px;
     width: 100%;
-    background-color: black;
 }
 
 a{
